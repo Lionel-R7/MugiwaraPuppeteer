@@ -1,0 +1,15 @@
+{
+  "name": "mugiwarapuppeteer",
+  "version": "1.0.0",
+  "description": "projet puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^14.1.1",
+    "puppeteer-core": "^14.1.1"
+  }
+}
