@@ -1,6 +1,5 @@
 const puppeteer = require("puppeteer");
 
-
 function Rechercher(){
   if(document.getElementById('NbPages').value != null){
     nombre_pages=document.getElementById('NbPages').value;
