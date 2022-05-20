@@ -21,8 +21,44 @@
   <body>
     <h1>Mugiwara Projet</h1>
     <hr />
-    <script src="index.js">
-      console.log(f);
+
+    
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./search.png" class="img-fluid" alt="Image loupe">
+          </div>
+          <div class="col">
+            <form style="margin-top:40px">
+              <h3><span style="font-size:1.90rem">@</span> Recherche des mails de services</h3>
+            <div class="mb-3">
+              <label for="Recherche" class="form-label">Thème de la recherche</label>
+              <input type="text" class="form-control" style="width:70%" id="Recherche" aria-describedby="RechercheHelp">
+              <div id="RechercheHelp" class="form-text" style="font-size:12px">Veuillez inserer l'element que vous recherchez.</div>
+            </div>
+      
+            <div class="mb-3" style="margin-top:40px">
+              <label for="NbPages" class="form-label">Nombre de pages </label>
+              <input type="number" class="form-control" style="width:70%"  id="NbPages" aria-describedby="PageHelp">
+              <div id="PageHelp" class="form-text" style="font-size:12px" >Veuillez inserer le nombre de pages Google vous voulez parcourir</div>
+            </div>
+      
+            <button style="margin-left:70%" class="btn btn-primary" onclick="Rechercher()">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+               Envoyer
+            </button>
+            </div>
+          </form>
+          </div>
+          <div class="col"></div>
+        </div>
+      
+      
+    
+    <script src="index.js">console.log(f);
     </script>
+    
   </body>
 </html>
